@@ -1,0 +1,60 @@
+.cuerpo .formulario {
+  margin: 10px auto;
+  width: 40%;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.cuerpo .formulario .titulo {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cuerpo .formulario .titulo .add {
+  float: right;
+  cursor: pointer;
+}
+
+.cuerpo .formulario .titulo .add:hover {
+  color: orange;
+}
+
+.cuerpo .formulario .input {
+  padding: 10px 20px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.cuerpo .formulario .input input {
+  width: 96%;
+}
+
+.cuerpo .formulario .input .error {
+  color: red;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.2s;
+}
+
+.cuerpo .formulario .tareas .tarea {
+  padding: 0px 20px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.2s, padding 0.2s;
+}
+
+.cuerpo .formulario .tareas .tarea .delete {
+  float: right;
+  color: red;
+  cursor: pointer;
+}
+
+.cuerpo .formulario .tareas .tarea .delete:hover {
+  color: orange;
+}
