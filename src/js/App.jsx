@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 import Cabecera from './Cabecera';
 import Cuerpo from './Cuerpo';

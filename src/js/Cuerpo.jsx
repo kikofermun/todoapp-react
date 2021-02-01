@@ -2,6 +2,14 @@ import React from 'react';
 import '../css/cuerpo.css';
 
 class Cuerpo extends React.Component{
+    componentDidMount(){
+        document.querySelector( ".input input" ).addEventListener( "keyup", function( e ){
+            if( e.keyCode == 13 ){
+                document.querySelector( ".add" ).click();
+            }
+        });
+    }
+
     add(){
         let error = document.querySelector( ".error" );
         let nombre = document.querySelector( ".input input" ).value.trim();
